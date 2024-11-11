@@ -1,6 +1,6 @@
 To-Do for OutPi:
 
--Currently OutPi only does dashlights, Finish implementing servos.
+-Currently OutPi only does dashlights, Finish implementing the needles.
 
 -Have the Raspberry Pi start the App on launch.
 
