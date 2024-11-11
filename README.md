@@ -8,11 +8,11 @@ Installing WiringPi
 
     sudo apt-get update
 -
-   git clone https://github.com/WiringPi/WiringPi
+       git clone https://github.com/WiringPi/WiringPi
 -  
-   cd WiringPi
+       cd WiringPi
 -  
-    ./build
+         ./build
 
 
 In my personal gauge cluster I have removed the older Incandscent lights and swapped them with LED's due to the PI's limited output.
