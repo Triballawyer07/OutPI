@@ -62,6 +62,7 @@ bool is_metric = false;
  int LTS = 3;
  int RTS = 14;
  int FULLBEAM_PIN = 15;
+ int TC_PIN = 17;
  int HAND_BRAKE_PIN = 16;
  int LOWOIL_PIN = 4;
  int BADBATTERY_PIN = 21;
@@ -73,6 +74,7 @@ void Outgauge_Output(Outgauge_t* outgauge) {
    digitalWrite(RTS,            (outgauge->showLights & DL_SIGNAL_R) ? HIGH : LOW);
    digitalWrite(FULLBEAM_PIN,   (outgauge->showLights & DL_FULLBEAM) ? HIGH : LOW);
    digitalWrite(HAND_BRAKE_PIN, (outgauge->showLights & DL_HANDBRAKE) ? HIGH : LOW);
+   digitalWrite(TC_PIN,         (outgauge->showLights & DL_TC) ? HIGH : LOW);
    digitalWrite(LOWOIL_PIN,     (outgauge->showLights & DL_OILWARN) ? HIGH : LOW);
    digitalWrite(BADBATTERY_PIN, (outgauge->showLights & DL_BATTERY) ? HIGH : LOW); 
    digitalWrite(ABS_PIN,        (outgauge->showLights & DL_ABS) ? HIGH : LOW);
@@ -87,6 +89,7 @@ int main(int argc, char* argv[]) {
     pinMode(LTS, OUTPUT);
     pinMode(RTS, OUTPUT);
     pinMode(FULLBEAM_PIN, OUTPUT); 
+    pinMode(TC_PIN, OUTPUT);
     pinMode(HAND_BRAKE_PIN, OUTPUT); // 
     pinMode(LOWOIL_PIN, OUTPUT);
     pinMode(BADBATTERY_PIN, OUTPUT);
