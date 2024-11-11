@@ -6,7 +6,7 @@ To-Do for OutPi:
 
 -Use a Raspberry Pi Pico W and its UDP capabilities to see if the Pico can run a gauge cluster.
 
--If a Pico W can run a gauge cluster, develop a program that can could intercept the packets and send them over serial/usb for a regular pico.
+-If a Pico W can run a gauge cluster, develop a program that can intercept the packets and send them over serial/usb for a regular pico.
 
 -Give the programs a UI
 
