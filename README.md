@@ -3,7 +3,14 @@ OutPI utilizes BeamNG's OutGauge functionality to take Gauge info from the game 
 
 This project is guage clusters that don't feature [Canbus](https://en.wikipedia.org/wiki/CAN_bus).
 
-Currently this project is in its experemental stage, not all functionality has been implemented yet. As of 11/10/24 only the dash lights are being displayed.
+Currently this project is in its experimental stage, not all functionality has been implemented yet. As of 11/11/24 only the dash lights are being displayed.
+
+The current code as of 11/11/24 is [here](https://github.com/Triballawyer07/OutPI/blob/main/Standard/Experimental/Outguage_Ledtest.cpp)
+
+To build the code run this command:
+
+        g++ -o Outgauge_Ledtest Outgauge_Ledtest.cpp -lwiring
+
 
 This project utilizes [WiringPi](https://github.com/WiringPi/WiringPi)
 
