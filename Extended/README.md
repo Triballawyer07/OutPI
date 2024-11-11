@@ -3,7 +3,11 @@ longer work you will most likely have to fix it yourself. There is a chance that
 BeamNG.
 
 Only use this if you can't live without:
+
 Low fuel light, Check engine light,
+
 4WD light, Range Indicator,
+
 Radiator Leak light,
+
 Overrev Damage light,
