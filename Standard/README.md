@@ -1,2 +1,1 @@
-This standard folder is for people who don't need / wish to extend outgauges existing data stream. This will be fine for the majority of people, this is also the most realiable
-method.
+This standard folder is for people who don't need / wish to extend outgauges existing data stream. This will be fine for the majority of people, this is also the most realiable method. Since extending Outgauges Protocols will require editing the game files, which will most likely break every update.
