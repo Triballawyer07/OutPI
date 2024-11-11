@@ -7,8 +7,13 @@ This project utilizes WiringPi which is available at: https://github.com/WiringP
 Installing WiringPi
 
     sudo apt-get update
+    
     git clone https://github.com/WiringPi/WiringPi
+    
     cd WiringPi
+    
     ./build
 
 
+In my personal gauge cluster I have removed the older Incandscent lights and swapped them with LED's due to the PI's limited output.
+I highly recommend you also do this since LEDs use up to 90% less energy than incandescent bulbs.
