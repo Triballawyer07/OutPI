@@ -6,7 +6,8 @@ Currently this project is in its experemental stage, not all functionality has b
 This project utilizes WiringPi which is available at: https://github.com/WiringPi/WiringPi
 Installing WiringPi
 
-    sudo apt-get update
+-
+        sudo apt-get update
 -
        git clone https://github.com/WiringPi/WiringPi
 -  
